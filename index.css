@@ -1,14 +1,54 @@
 /* header-start */
-.navbar{
-  height: 100px;
-}
-
-.bg-head-color{
-  background-color: rgb(64, 27, 63);;
-}
 
 .white-color{
   color: white;
+}
+
+.logo-img{
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+.company-name{
+  height: max-content;
+}
+
+@media (max-width:500px){
+  .logo-img{
+    margin-left: 35%;
+  }
+
+  .company-name{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width : 350px){
+  .company-name{
+    margin-left: 1%;
+  }
+}
+
+.card-img-top{
+  height: 400px;
+  width: 200px;
+}
+
+.green-color{
+  color: yellowgreen;
+}
+
+.red-color{
+  color: red;
+}
+
+.blue-color{
+  color: blue;
+}
+
+.bg-head-color{
+  background-color: black;
 }
 
 /* header-end */
@@ -71,7 +111,7 @@
 }
 
 .container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: auto;
   /* overflow-x: auto; */
@@ -92,6 +132,14 @@
 .main-div3{
   grid-area: sidebar-2;
   border: 1px solid green;
+}
+
+.better-look{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* footer-start */
